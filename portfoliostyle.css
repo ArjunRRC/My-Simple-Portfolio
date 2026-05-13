@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.container{
+    padding: 20px;
+}
+.division-one, .division-two, .division-three, .division-four, .division-five{
+    margin-top: 30px;
+}
+.division-one{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+.division-one__title{
+    font-size: 60px;
+}
+.division-one__job{
+    font-size: 30px;
+}
+.division-one__contact{
+    text-decoration: none;
+    background-color: orangered;
+    border-radius: 5px;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+.division-three{
+    display: inline-block;
+    height: 160px;
+    width:250px ;
+    background-color: blueviolet;
+    border-radius: 20px;
+    padding: 20px;
+    vertical-align: top;
+}
+.division-three li, .division-four li{
+    list-style: none;
+}
+.division-two__desc, .division-three__desc, .division-four__desc{
+    margin-top: 10px;
+}
+.division-three ul, .division-four ul{
+    margin-bottom: 10px;
+}
+.division-four{
+    background-color: orangered;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 20px;
+    height: 160px;
+    vertical-align: top;
+}
+.division-five{
+    background-color: black;
+    color: white;
+    padding: 20px;  
+    border-radius: 20px;
+}
+.division-five__title{
+    display: inline-block;  
+}
+.division-five a{
+    text-decoration: none;
+    color: skyblue;
+    display: inline-block;
+}
+.division-five__name{
+    display: block;
+}
+.contact-form{
+    margin-top: 10px;
+}
+.contact-form__input, .contact-form__textarea, .contact-form__submit{
+    margin-top: 10px;
+}
+.contact-form__input{
+    padding: 10px;
+    border: none;
+    border-bottom: solid black 1px;
+}
+.contact-form__textarea{
+    padding: 10px;
+    border: solid black 1px;
+}
+.contact-form__submit{
+    padding: 5px;
+    background-color: red;
+    border-radius: 5px;
+}
+   
